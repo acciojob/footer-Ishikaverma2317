@@ -34,8 +34,7 @@ footer .top {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background: #222;
-  color: white;
+  color: #fff;
   margin: 0 5px;
   text-align: center;
   line-height: 40px;
@@ -43,9 +42,25 @@ footer .top {
   transition: all 0.3s ease;
 }
 
+/* Brand colors for each icon */
+.media-icons a:nth-child(1) {
+  background: #3b5998; /* Facebook */
+}
+.media-icons a:nth-child(2) {
+  background: #1da1f2; /* Twitter */
+}
+.media-icons a:nth-child(3) {
+  background: #e1306c; /* Instagram */
+}
+.media-icons a:nth-child(4) {
+  background: #0077b5; /* LinkedIn */
+}
+.media-icons a:nth-child(5) {
+  background: #ff0000; /* YouTube */
+}
+
 .media-icons a:hover {
-  background: #fff;
-  color: #111;
+  opacity: 0.8;
 }
 
 .link-boxes {
